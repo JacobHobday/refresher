@@ -1,0 +1,11 @@
+<h1>Notes Dashboard</h1>
+<div class="grid-container">
+ <% @notes.each do |note| %>
+    <div class="grid-item"> 
+        <%= note.title%>
+        <%= note.body%>
+    </div>
+</div>
+ <% end %>
+
+             
